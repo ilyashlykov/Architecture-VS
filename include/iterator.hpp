@@ -43,7 +43,7 @@ public:
 
     void decrement() {
         if (bias > 0) {
-            bias--;
+            bias-=1;
             (this->base_reference())--;
         }
         else {
